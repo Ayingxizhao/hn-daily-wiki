@@ -1,0 +1,50 @@
+/* Navigation control buttons styling */
+.nav-controls {
+    display: flex;
+    gap: 8px;
+    padding: 12px 12px 16px 12px;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    margin-bottom: 16px;
+}
+
+.nav-control-btn {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--md-primary-fg-color);
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-primary-fg-color--light);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.nav-control-btn:hover {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-control-btn:active {
+    transform: translateY(0);
+}
+
+.nav-control-btn .icon {
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .nav-control-btn {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-md-color-scheme="slate"] .nav-control-btn:hover {
+    border-color: var(--md-primary-fg-color);
+}
