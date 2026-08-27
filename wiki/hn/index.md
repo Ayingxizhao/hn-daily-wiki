@@ -4,6 +4,7 @@ Daily digests of CS/data science discussions from HackerNews.
 
 ## 2026-08
 
+- [2026-08-26](2026-08-26.md)
 - [2026-08-25](2026-08-25.md)
 - [2026-08-24](2026-08-24.md)
 - [2026-08-23](2026-08-23.md)
