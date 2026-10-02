@@ -2,6 +2,10 @@
 
 Daily digests of CS/data science discussions from HackerNews.
 
+## 2026-10
+
+- [2026-10-01](2026-10-01.md)
+
 ## 2026-09
 
 - [2026-09-30](2026-09-30.md)
